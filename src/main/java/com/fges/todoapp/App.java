@@ -7,15 +7,12 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.node.MissingNode;
 import org.apache.commons.cli.*;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
@@ -74,7 +71,7 @@ public class App {
                 ObjectMapper mapper = new ObjectMapper();
                 JsonNode actualObj = mapper.readTree(fileContent);
                 if (actualObj instanceof MissingNode) {
-                    // Node was not reconised
+                    // Node was not recognised
                     actualObj = JsonNodeFactory.instance.arrayNode();
                 }
 
