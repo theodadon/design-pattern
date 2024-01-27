@@ -1,0 +1,50 @@
+classDiagram
+    class App {
+        +main(String[] args) : void
+    }
+
+    class CommandInterface {
+        -execute(String[] args) : int
+    }
+
+    class TodoListManager {
+        <<interface>>
+        +insert(String todo) : void
+        +list() : void
+    }
+
+    class JsonManager {
+        -filePath : Path
+        +insert(String todo) : void
+        +list() : void
+    }
+
+    class CsvManager {
+        -filePath : Path
+        +insert(String todo) : void
+        +list() : void
+    }
+
+    class ErreurManager {
+        +handleError(String message) : void
+    }
+
+    class FileManager {
+        +getFilePath(String fileName) : Path
+    }
+
+    class EnvManager {
+        JSON_EXTENSION : String
+        CSV_EXTENSION : String
+    }
+
+    App --> CommandInterface
+    CommandInterface --> TodoListManager
+    JsonManager ..|> TodoListManager
+    CsvManager ..|> TodoListManager
+    CommandInterface --> ErreurManager
+    JsonManager --> FileManager
+    CsvManager --> FileManager
+    CommandInterface ..> EnvManager
+    JsonManager ..> EnvManager
+    CsvManager ..> EnvManager

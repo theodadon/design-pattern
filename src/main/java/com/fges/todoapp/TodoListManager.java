@@ -1,4 +1,8 @@
 package com.fges.todoapp;
 
-public class TodoListManager {
+import java.io.IOException;
+
+public interface TodoListManager {
+    void insert(String todo) throws IOException;
+    void list() throws IOException;
 }
