@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CommandInterface {
 
-    public int execute(String[] args) {
+    public static int execute(String[] args) {
         Options options = new Options();
         options.addRequiredOption("s", "source", true, "File containing the todos");
 

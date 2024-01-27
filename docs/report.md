@@ -28,7 +28,7 @@
 > - Le plus gros problème que j'ai rencontré est d'adapter le code à la restrucuration que j'ai faite.
 > - Ma connaissance approximative de Java
 > - Ce que j'ai du changer est le code pour l'adapter. Cependant, je n'ai pas cherché à l'optimiser énormément.
-> - J'ai galéré à compiler car je savais pas mettre les arguments mais j'ai réussi.
+> - J'ai galéré à compiler car je savais pas mettre les arguments mais j'ai réussi. De plus, j'ai du réadapter le GhostTest pour qu'il fonctionne avec mon architecture.
 > - Pour le diagramme, je l'ai fait en mermaid. Le fichier est [ici](diag.mmd) ou sinon cliquez sur ce [lien](https://mermaid.live/edit#pako:eNrFVF1rwjAU_SshTxva_oAiheEUlK0OKmOwjhGaaw1rEklS2XD-96WtztRGnwbLS8u9555zv7g7nEsKOMJ5SbS-Z6RQhGcC2ddY0N1mg3atoX4DTpi4SY1ionh9Q0QV-hZFaCsZbUH7TLjhY8k5EXQmDKgVycHlCuAT8spAn44J42VbSiofmDaPRJAClEs2GrGjRhw7-TKhQZmDBDKWoJtvAyot583VOuZaCo9qsGIlPBGztrH15--Fx3r7L7oTpaBSHunB2s6zBOuX6qjCQWuLu0o4tRn76Aow00MxR7q6uITwhu9U3XmCwteYebpI3icvy0mSzhaJjW8pT4Bx-nzR_6tQL30QxL3tbb29na6hZ6vZIt2tCcPvCyhnxFdAPtHOkPqSNcRpe0_N7z8XCsPYabavsL6_U1LXjYeYg7JnhNqr00wuw2YNHDIc2V9K1EeGM7G3OFIZmX6JHEdGVTDE1YYSA4cj1Rr3P--dfq0) pour le voir en ligne.
 
 ---
