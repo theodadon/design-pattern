@@ -2,7 +2,6 @@ package com.fges.todoapp.e2e;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fges.todoapp.CommandInterface;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;

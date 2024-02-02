@@ -1,0 +1,37 @@
+classDiagram
+    class App {
+        +main(String[] args) : void
+        +exec(String[] args) : int
+    }
+    class FileManager {
+        +readFileContent(Path filePath) : String
+        +writeFileContent(Path filePath, String content) : void
+    }
+class FileFormatManager {
+    <<interface>>
++insertTodo(Path filePath, String todo) : void
++listTodos(String fileContent) : void
+}
+class CsvManager {
++insertTodo(Path filePath, String todo) : void
++listTodos(String fileContent) : void
+}
+class JsonManager {
++insertTodo(Path filePath, String todo) : void
++listTodos(String fileContent) : void
+}
+class ErreurManager {
++printError(String message) : void
+}
+class TodoListManager {
++handleCommand(String[] args) : int
+-handleInsertCommand(CommandLine cmd, String fileName, FileFormatManager manager) : int
+-handleListCommand(String fileName, FileFormatManager manager) : int
+-getFileExtension(String fileName) : String
+}
+App --> TodoListManager : utilise
+TodoListManager --> FileManager : utilise
+TodoListManager --> ErreurManager : utilise
+TodoListManager ..> FileFormatManager : dépend de
+CsvManager --|> FileFormatManager : implemente
+JsonManager --|> FileFormatManager : implemente
