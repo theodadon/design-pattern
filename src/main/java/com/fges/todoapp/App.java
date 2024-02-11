@@ -15,18 +15,23 @@ public class App {
 
     public static int exec(String[] args) throws Exception {
         initializeApplication();
-        if (args.length == 0) {
-            throw new IllegalArgumentException("No command provided");
+        if (args.length < 3 || !"-s".equals(args[0])) {
+            throw new IllegalArgumentException("Usage: -s <filepath> <command> [args...]");
         }
-        return commandRegistry.getCommand(args[0], args).execute();
+        String filePath = args[1];
+        String commandName = args[2];
+        String[] commandArgs = new String[args.length - 2];
+        System.arraycopy(args, 2, commandArgs, 0, args.length - 2);
+
+        commandArgs[0] = filePath;
+
+        return commandRegistry.getCommand(commandName, commandArgs).execute();
     }
 
     private static void initializeApplication() {
-        // Enregistrement des gestionnaires de format
         FileFormatManagerFactory.registerFormatManager("csv", CsvManager.class);
         FileFormatManagerFactory.registerFormatManager("json", JsonManager.class);
 
-        // Enregistrement des commandes
         commandRegistry.registerCommand("insert", InsertCommand::new);
         commandRegistry.registerCommand("list", ListCommand::new);
     }
