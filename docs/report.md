@@ -51,7 +51,7 @@ J'ai mis en place FileFormatManager qui me permet de gérer les différents form
 > - Le concept SOLID est vachement complexe si on essaie de faire quelque chose de qualité. J'ai du mal à comprendre comment l'appliquer parfois.
 > - La connaissance moyenne de Java. (je suis passé d'approximative à moyenne)
 > - J'ai principalement changé les fichiers TodoList et Todo puis j'ai crée des fichiers pour insérer et lister au moins c'est indépendant et facilement modifiable
-> - J'ai encore beaucoup à modifier je pense, mais il me semble que je progresse
+> - J'ai encore beaucoup à modifier je pense, mais il me semble que je progresse. Il ne faut pas oublier de mettre un auteur,une couleur et/ou une description !
 > - Pour le 3ème diagramme, le fichier est [ici](diag3.mmd).
 
 
