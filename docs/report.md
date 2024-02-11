@@ -45,5 +45,14 @@ J'ai mis en place FileFormatManager qui me permet de gérer les différents form
 
 ---
 
+- **TP 3**:
+> - J'ai essayé de refactorer le code pour qu'il corresponde à vos attentes dans le mail, surtout avec les concepts SOLID qui me manquaient.
+> - Encore une fois, le collègue Sacha mais beaucoup les forums et les vidéos.
+> - Le concept SOLID est vachement complexe si on essaie de faire quelque chose de qualité. J'ai du mal à comprendre comment l'appliquer parfois.
+> - La connaissance moyenne de Java. (je suis passé d'approximative à moyenne)
+> - J'ai principalement changé les fichiers TodoList et Todo puis j'ai crée des fichiers pour insérer et lister au moins c'est indépendant et facilement modifiable
+> - J'ai encore beaucoup à modifier je pense, mais il me semble que je progresse
+> - Pour le 3ème diagramme, le fichier est [ici](diag3.mmd).
+
 
 

@@ -1,0 +1,71 @@
+classDiagram
+    class App {
+        +main(String[] args) : void
+        +exec(String[] args) : int
+    }
+    class Command {
+        <<interface>>
+        +execute() : int
+    }
+    class InsertCommand {
+        -args : String[]
+        +execute() : int
+    }
+    class ListCommand {
+        -args : String[]
+        +execute() : int
+    }
+    class CommandRegistry {
+        -commandConstructors : Map
+        +registerCommand(String, Function) : void
+        +getCommand(String, String[]) : Command
+    }
+    class FileFormatManager {
+        <<interface>>
+        +insertTodo(Path, Todo) : void
+        +listTodos(Path) : List
+    }
+    class CsvManager {
+        +insertTodo(Path, Todo) : void
+        +listTodos(Path) : List
+    }
+    class JsonManager {
+        +insertTodo(Path, Todo) : void
+        +listTodos(Path) : List
+    }
+    class FileFormatManagerFactory {
+        -registry : Map
+        +registerFormatManager(String, Class) : void
+        +getManager(String) : FileFormatManager
+    }
+    class Todo {
+        -description : String
+        -author : String
+        -color : String
+    }
+    class TodoListManager {
+        +handleCommand(String[]) : int
+    }
+
+    App --> CommandRegistry
+    App --> "1" TodoListManager: uses
+
+    Command <|.. InsertCommand: implements
+    Command <|.. ListCommand: implements
+
+    CommandRegistry --> "*" Command: creates
+
+    FileFormatManager <|.. CsvManager: implements
+    FileFormatManager <|.. JsonManager: implements
+
+    FileFormatManagerFactory --> "*" FileFormatManager: creates
+
+    InsertCommand --> FileFormatManager: uses
+    ListCommand --> FileFormatManager: uses
+
+    CsvManager --> Todo: uses
+    JsonManager --> Todo: uses
+
+    TodoListManager --> FileFormatManagerFactory: uses
+    TodoListManager --> CommandRegistry: uses
+    TodoListManager --> Command: uses

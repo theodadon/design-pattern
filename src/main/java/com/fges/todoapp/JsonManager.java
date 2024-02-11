@@ -1,41 +1,34 @@
 package com.fges.todoapp;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.node.JsonNodeFactory;
-import com.fasterxml.jackson.databind.node.MissingNode;
+import com.fasterxml.jackson.core.type.TypeReference;
+
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JsonManager implements FileFormatManager {
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
-    public void insertTodo(Path filePath, String todo) throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        String content = FileManager.readFileContent(filePath);
-        JsonNode actualObj = mapper.readTree(content);
-        if (actualObj instanceof MissingNode) {
-            actualObj = JsonNodeFactory.instance.arrayNode();
+    public void insertTodo(Path filePath, Todo todo) throws IOException {
+        List<Todo> todos;
+        if (Files.exists(filePath) && Files.size(filePath) > 0) {
+            todos = objectMapper.readValue(filePath.toFile(), new TypeReference<List<Todo>>() {});
+        } else {
+            todos = new ArrayList<>();
         }
-
-        if (actualObj instanceof ArrayNode arrayNode) {
-            arrayNode.add(todo);
-        }
-
-        FileManager.writeFileContent(filePath, actualObj.toString());
+        todos.add(todo);
+        objectMapper.writeValue(filePath.toFile(), todos);
     }
 
     @Override
-    public void listTodos(String fileContent) throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        JsonNode actualObj = mapper.readTree(fileContent);
-        if (actualObj instanceof MissingNode) {
-            actualObj = JsonNodeFactory.instance.arrayNode();
+    public List<Todo> listTodos(Path filePath) throws IOException {
+        if (!Files.exists(filePath) || Files.size(filePath) == 0) {
+            return new ArrayList<>();
         }
-
-        if (actualObj instanceof ArrayNode arrayNode) {
-            arrayNode.forEach(node -> System.out.println("- " + node.asText()));
-        }
+        return objectMapper.readValue(filePath.toFile(), new TypeReference<List<Todo>>() {});
     }
 }
