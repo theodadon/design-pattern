@@ -3,6 +3,10 @@ package com.fges.todoapp;
 import java.util.HashMap;
 import java.util.Map;
 
+/*Une usine pour créer des instances de FileFormatManager basées sur
+l'extension du fichier. Cette classe permet de récupérer le gestionnaire
+de format de fichier approprié (par exemple, CsvManager ou JsonManager) en
+fonction du type de fichier spécifié.*/
 public class FileFormatManagerFactory {
     private static final Map<String, Class<? extends FileFormatManager>> registry = new HashMap<>();
 

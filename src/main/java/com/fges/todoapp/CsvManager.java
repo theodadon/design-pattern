@@ -6,6 +6,9 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
+/*Implémente FileFormatManager pour gérer les opérations sur les
+fichiers au format CSV. Cette classe contient la logique spécifique pour
+lire et écrire dans des fichiers CSV.*/
 public class CsvManager implements FileFormatManager {
 
     @Override

@@ -1,5 +1,11 @@
 package com.fges.todoapp;
 
+/*Le point d'entrée de l'application.
+Cette classe est responsable de l'initialisation de l'application,
+y compris la configuration des gestionnaires de format de fichiers
+et l'enregistrement des commandes disponibles. Elle analyse également les arguments
+de la ligne de commande et délègue l'exécution des commandes au CommandRegistry. */
+
 public class TodoListManager {
     private static final CommandRegistry commandRegistry = new CommandRegistry();
 

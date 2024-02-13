@@ -1,5 +1,8 @@
 package com.fges.todoapp;
 
+/*Représente l'entité Todo avec des propriétés comme la description,
+l'auteur, et la couleur. Cette classe est utilisée pour modéliser les
+données de todo qui sont traitées par l'application.*/
 public class Todo {
     private String description;
     private String author;

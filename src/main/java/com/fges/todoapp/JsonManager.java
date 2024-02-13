@@ -9,6 +9,9 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
+/*Semblable à CsvManager, mais pour les fichiers au format JSON.
+Cette classe implémente FileFormatManager et gère la sérialisation et la
+désérialisation des todos en JSON.*/
 public class JsonManager implements FileFormatManager {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
@@ -16,7 +19,8 @@ public class JsonManager implements FileFormatManager {
     public void insertTodo(Path filePath, Todo todo) throws IOException {
         List<Todo> todos;
         if (Files.exists(filePath) && Files.size(filePath) > 0) {
-            todos = objectMapper.readValue(filePath.toFile(), new TypeReference<List<Todo>>() {});
+            todos = objectMapper.readValue(filePath.toFile(), new TypeReference<>() {
+            });
         } else {
             todos = new ArrayList<>();
         }
@@ -29,6 +33,7 @@ public class JsonManager implements FileFormatManager {
         if (!Files.exists(filePath) || Files.size(filePath) == 0) {
             return new ArrayList<>();
         }
-        return objectMapper.readValue(filePath.toFile(), new TypeReference<List<Todo>>() {});
+        return objectMapper.readValue(filePath.toFile(), new TypeReference<>() {
+        });
     }
 }
