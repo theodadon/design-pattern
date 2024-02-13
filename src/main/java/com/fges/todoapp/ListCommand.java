@@ -11,11 +11,11 @@ public class ListCommand implements Command {
 
     @Override
     public int execute() throws Exception {
-        if (args.length < 2) {
+        if (args.length < 1) {
             System.err.println("Not enough arguments for list command.");
             return 1;
         }
-        String filePath = args[1];
+        String filePath = args[0]; // args[0] est le chemin du fichier
         FileFormatManager manager = FileFormatManagerFactory.getManager(getFileExtension(filePath));
         manager.listTodos(Paths.get(filePath)).forEach(todo ->
                 System.out.println(todo.getDescription() + " - Author: " + todo.getAuthor() + ", Color: " + todo.getColor())
