@@ -19,7 +19,7 @@ public class InsertCommand implements Command {
             System.err.println("Not enough arguments for insert command.");
             return 1;
         }
-        String filePath = args[0]; // args[0] est maintenant le chemin du fichier
+        String filePath = args[0]; // args[0] est le chemin du fichier
         String description = args[1]; // La description est le premier argument spécifique de la commande
         String author = args.length > 2 ? args[2] : "Anonymous"; // L'auteur est optionnel
         String color = args.length > 3 ? args[3] : "None"; // La couleur est optionnelle

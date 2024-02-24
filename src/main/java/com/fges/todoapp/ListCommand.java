@@ -2,6 +2,17 @@ package com.fges.todoapp;
 
 import java.nio.file.Paths;
 
+/**
+ * Classe ListCommand implémentant l'interface Command. Cette classe est responsable
+ * de la commande "list",
+ * qui affiche les todos stockés dans un fichier donné. Elle prend en charge différents
+ * formats de fichiers
+ * en utilisant le FileFormatManager adéquat récupéré via FileFormatManagerFactory.
+ * L'utilisation de cette commande permet aux utilisateurs de visualiser facilement
+ * la liste des tâches à faire
+ * stockées dans un fichier, peu importe le format du fichier, tant qu'un gestionnaire
+ * approprié est disponible.
+ */
 public class ListCommand implements Command {
     private final String[] args;
 

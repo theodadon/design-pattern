@@ -1,5 +1,6 @@
 package com.fges.todoapp;
 
+/* Gère les erreurs et les affiche dans la console. */
 
 public class ErreurManager {
 

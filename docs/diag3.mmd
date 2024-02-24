@@ -48,6 +48,11 @@ classDiagram
         +readFileContent(Path): String
         +writeFileContent(Path, String): void
     }
+    class LogManager {
+        -logFilePath: Path
+        -dtf: DateTimeFormatter
+        +log(String): void
+    }
     class ErreurManager {
         +printError(String): void
     }
@@ -72,6 +77,8 @@ classDiagram
     TodoListManager --> CommandRegistry : uses
     CsvManager --> FileManager : uses
     JsonManager --> FileManager : uses
+    FileManager --> LogManager : used by
+    LogManager ..> FileManager : uses
     App --> ErreurManager : uses
     InsertCommand --> ErreurManager : uses
     ListCommand --> ErreurManager : uses
