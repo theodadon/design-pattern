@@ -52,7 +52,7 @@ J'ai mis en place FileFormatManager qui me permet de gérer les différents form
 > - La connaissance moyenne de Java. (je suis passé d'approximative à moyenne)
 > - J'ai principalement changé les fichiers TodoList et Todo puis j'ai crée des fichiers pour insérer et lister au moins c'est indépendant et facilement modifiable
 > - J'ai encore beaucoup à modifier je pense, mais il me semble que je progresse. Il ne faut pas oublier de mettre un auteur,une couleur et/ou une description !
-> - Pour le 3ème diagramme, le fichier est [ici](diag3.mmd).
-
+> - Pour le 3ème diagramme, le fichier est [ici](diag3.mmd) ou en ligne [ici](https://mermaid.live/edit#pako:eNq9VtFu2jAU_RUrT1QjfECEkCY6pE6tNK19W_bgObfBWmJHttOto_z7rgOhtuOkoKnjAUHu8fG55_peZ5cwWUCSJayiWl9zWipa5yoXBD_dM_Kxaciuf2Q_KZN1TUXxFUqujXrOyNp_4II_1JSL2b1RXJTfvhOqSn2VkSfJCw8Fv4ENUFwYD8QFN5xW_A-gpoozargUs4Bu76sPpMUzWUuBwZYZqXRG7mjjbau6taCOVEeZc7JpBbMKYvmUYEJ4n93Vya9pyb7U5RLdAPVIGaxWA-taAzPfsIDzRmhQJsqcWrezk7zLuW_RnfdhfpCFtOx3VNAS1L8cwy0GKvBrEj1pgYQNr2AjVU3jIsbLwjvHbQazL9Rs510ysaNSoVgb0x0OETbjsaOhn6Iy3me3z1qK_7jdwOoNtR0Z9qw61XusUT2SU_-t7SYjvepjETTQMqE5bpECWtgozhYDwvT5H3bwkL8UNxBC-3kxPd1uZRnvjUqWltEyZcR-e9HCPGbkmhp44PUxTfOa4qFwspydo-CTUtCquAUNLjcIkOosKntOgjQK0Ezxxk7ZmHUpbc1WqmiIyWoY6Xbs_9iLLU1XgysiI60G3aPCqLMCkQzLbAZgsnxJ02Dm4pCpmwpqLHAc7o7RGNinWyxW4w3jZ-ASX7BsFGY5nEE0MGFyoTtThva9si4WLxGlUWNcyguWDVFWX3cIfSOGxh9BgfrwtjrjbL3ma8HuMPGBborTSDdikc6E6IAF-XG6GJ1Yfy7ipH2n-M0-5dJbaPdMvoWN-TqGT-ZJDVhTXuA77c6uzxOzxcLnSYY_C6p-5kku9ojD2SHvnwVLMnz1g3nSNgVW8_gKfHi4_wtTX6Bu).
+> - Fait le 24/02
 
 
