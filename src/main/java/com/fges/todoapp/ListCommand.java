@@ -1,36 +1,42 @@
 package com.fges.todoapp;
 
 import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
 
-/**
- * Classe ListCommand implémentant l'interface Command. Cette classe est responsable
- * de la commande "list",
- * qui affiche les todos stockés dans un fichier donné. Elle prend en charge différents
- * formats de fichiers
- * en utilisant le FileFormatManager adéquat récupéré via FileFormatManagerFactory.
- * L'utilisation de cette commande permet aux utilisateurs de visualiser facilement
- * la liste des tâches à faire
- * stockées dans un fichier, peu importe le format du fichier, tant qu'un gestionnaire
- * approprié est disponible.
- */
 public class ListCommand implements Command {
-    private final String[] args;
+    private final Map<String, String> argsMap = new HashMap<>();
 
     public ListCommand(String[] args) {
-        this.args = args;
+        for (int i = 0; i < args.length; i++) {
+            switch (args[i]) {
+                case "-s":
+                case "--source":
+                    if (i + 1 < args.length) { // Assurez-vous qu'il y a un argument après -s ou --source
+                        argsMap.put("source", args[++i]);
+                    }
+                    break;
+                default:
+                    // Autres arguments inattendus
+                    break;
+            }
+        }
     }
 
     @Override
     public int execute() throws Exception {
-        if (args.length < 1) {
-            System.err.println("Not enough arguments for list command.");
+        if (!argsMap.containsKey("source")) {
+            System.err.println("Source file path (-s or --source) is required for list command.");
             return 1;
         }
-        String filePath = args[0];
+        String filePath = argsMap.get("source");
         FileFormatManager manager = FileFormatManagerFactory.getManager(getFileExtension(filePath));
-        manager.listTodos(Paths.get(filePath)).forEach(todo ->
-                System.out.println(todo.getDescription() + " - Author: " + todo.getAuthor() + ", Color: " + todo.getColor())
-        );
+
+        manager.listTodos(Paths.get(filePath)).forEach(todo -> {
+            String statusPrefix = todo.isDone() ? "Done: " : "- ";
+            System.out.println(statusPrefix + todo.getDescription());
+        });
+
         return 0;
     }
 

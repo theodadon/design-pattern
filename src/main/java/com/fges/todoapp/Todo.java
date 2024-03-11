@@ -5,13 +5,21 @@ public class Todo {
     private String author;
     private String color;
     private boolean done;
+
+    // Constructeur par défaut
+    public Todo() {
+        // Ce constructeur est nécessaire pour la désérialisation JSON
+    }
+
+    // Constructeur avec tous les paramètres
     public Todo(String description, String author, String color, boolean done) {
         this.description = description;
         this.author = author;
         this.color = color;
-        this.done = done; // Initialise le statut de la tâche
+        this.done = done;
     }
 
+    // Getters et setters
     public String getDescription() {
         return description;
     }
