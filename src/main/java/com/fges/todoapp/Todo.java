@@ -1,19 +1,17 @@
 package com.fges.todoapp;
 
-/*Représente l'entité Todo avec des propriétés comme la description,
-l'auteur, et la couleur. Cette classe est utilisée pour modéliser les
-données de todo qui sont traitées par l'application.*/
 public class Todo {
     private String description;
     private String author;
     private String color;
-    public Todo(String description, String author, String color) {
+    private boolean done;
+    public Todo(String description, String author, String color, boolean done) {
         this.description = description;
         this.author = author;
         this.color = color;
+        this.done = done; // Initialise le statut de la tâche
     }
 
-    // Getters et setters pour les nouveaux champs
     public String getDescription() {
         return description;
     }
@@ -36,5 +34,13 @@ public class Todo {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public boolean isDone() {
+        return done;
+    }
+
+    public void setDone(boolean done) {
+        this.done = done;
     }
 }

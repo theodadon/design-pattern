@@ -26,7 +26,7 @@ public class ListCommand implements Command {
             System.err.println("Not enough arguments for list command.");
             return 1;
         }
-        String filePath = args[0]; // args[0] est le chemin du fichier
+        String filePath = args[0];
         FileFormatManager manager = FileFormatManagerFactory.getManager(getFileExtension(filePath));
         manager.listTodos(Paths.get(filePath)).forEach(todo ->
                 System.out.println(todo.getDescription() + " - Author: " + todo.getAuthor() + ", Color: " + todo.getColor())

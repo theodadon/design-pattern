@@ -1,5 +1,6 @@
 package com.fges.todoapp;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
@@ -15,9 +16,13 @@ public class CommandRegistry {
     }
 
     public Command getCommand(String commandName, String[] args) {
+        System.out.println("arga: " + Arrays.toString(args));
         if (!commandConstructors.containsKey(commandName)) {
-            throw new IllegalArgumentException("Unknown command: " + commandName);
+            throw new IllegalArgumentException("Unknown command: " + commandName + Arrays.toString(args));
         }
         return commandConstructors.get(commandName).apply(args);
+    }
+    public boolean isCommand(String commandName) {
+        return commandConstructors.containsKey(commandName);
     }
 }
