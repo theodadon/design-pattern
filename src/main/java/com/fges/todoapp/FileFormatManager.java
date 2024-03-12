@@ -4,22 +4,35 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
 
-/**
- * Interface FileFormatManager définie le contrat pour les gestionnaires de formats de
- * fichiers spécifiques dans l'application.
- * Cette interface est utilisée pour abstraire les opérations de gestion de todos
- * (comme l'insertion et la récupération)
- * de leurs représentations spécifiques de format de fichier. Les classes qui implémentent
- * cette interface sont responsables
- * de fournir la logique concrète pour manipuler les todos dans différents formats de
- * fichiers (par exemple, JSON, CSV, XML, etc.).
-
- * En utilisant cette interface, l'application peut facilement étendre sa
- * prise en charge à d'autres formats de fichiers en
- * ajoutant de nouvelles implémentations sans modifier la logique centrale de
- * manipulation des todos.
- */
 public interface FileFormatManager {
+
+    /**
+     * Insère une nouvelle tâche TODO dans le fichier spécifié.
+     *
+     * @param filePath Le chemin vers le fichier où insérer la tâche.
+     * @param todo La tâche à insérer.
+     * @throws IOException Si une erreur d'entrée/sortie se produit.
+     */
     void insertTodo(Path filePath, Todo todo) throws IOException;
+
+    /**
+     * Liste toutes les tâches TODO stockées dans le fichier spécifié.
+     *
+     * @param filePath Le chemin vers le fichier à partir duquel lister les tâches.
+     * @return Une liste de toutes les tâches trouvées.
+     * @throws IOException Si une erreur d'entrée/sortie se produit.
+     */
     List<Todo> listTodos(Path filePath) throws IOException;
+
+    /**
+     * (Optionnel) Écrit une liste de tâches TODO dans le fichier spécifié,
+     * remplaçant tout contenu existant.
+     *
+     * @param filePath Le chemin vers le fichier où écrire les tâches.
+     * @param todos La liste des tâches à écrire.
+     * @throws IOException Si une erreur d'entrée/sortie se produit.
+     */
+    default void writeTodos(Path filePath, List<Todo> todos) throws IOException {
+        throw new UnsupportedOperationException("This method is not implemented.");
+    }
 }

@@ -4,24 +4,25 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
-/*Gère le registre des commandes disponibles dans l'application.
-Cette classe permet l'enregistrement des commandes et la récupération
-des instances de commandes basées sur les noms de commandes fournies par
-l'utilisateur, facilitant ainsi l'exécution dynamique des commandes.*/
+
 public class CommandRegistry {
     private final Map<String, Function<String[], Command>> commandConstructors = new HashMap<>();
 
+    // Enregistre un constructeur de commande dans le registre
     public void registerCommand(String commandName, Function<String[], Command> constructor) {
         commandConstructors.put(commandName, constructor);
     }
 
+    // Récupère une instance de la commande basée sur le nom de la commande
     public Command getCommand(String commandName, String[] args) {
-        System.out.println("arga: " + Arrays.toString(args));
         if (!commandConstructors.containsKey(commandName)) {
-            throw new IllegalArgumentException("Unknown command: " + commandName + Arrays.toString(args));
+            LogManager.log("Unknown command (CommandRegistry): " + commandName + " " + Arrays.toString(args));
+            throw new IllegalArgumentException("Unknown command: " + commandName + " " + Arrays.toString(args));
         }
         return commandConstructors.get(commandName).apply(args);
     }
+
+    // Vérifie si une commande est enregistrée dans le registre
     public boolean isCommand(String commandName) {
         return commandConstructors.containsKey(commandName);
     }

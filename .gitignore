@@ -1,6 +1,6 @@
 .vscode
 .idea
-
+.application.log
 target
 
 tmp-*

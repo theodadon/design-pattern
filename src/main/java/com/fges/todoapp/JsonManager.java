@@ -1,7 +1,7 @@
 package com.fges.todoapp;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,9 +9,6 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-/*Semblable à CsvManager, mais pour les fichiers au format JSON.
-Cette classe implémente FileFormatManager et gère la sérialisation et la
-désérialisation des todos en JSON.*/
 public class JsonManager implements FileFormatManager {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
@@ -35,5 +32,9 @@ public class JsonManager implements FileFormatManager {
         }
         return objectMapper.readValue(filePath.toFile(), new TypeReference<>() {
         });
+    }
+    @Override
+    public void writeTodos(Path filePath, List<Todo> todos) throws IOException {
+        objectMapper.writeValue(filePath.toFile(), todos);
     }
 }

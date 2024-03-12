@@ -2,31 +2,30 @@ package com.fges.todoapp;
 
 import java.util.Arrays;
 
-/**
- * La classe TodoListManager est conçue pour gérer l'exécution des différentes
- * commandes de l'application todo.
- * Elle utilise un CommandRegistry pour enregistrer et récupérer les commandes
- * disponibles dans l'application.
- * Cette classe agit comme le point central pour le traitement des commandes dans
- * l'application de gestion des tâches. Elle délègue
- * la responsabilité de l'exécution spécifique de chaque commande aux classes de
- * commandes individuelles tout en fournissant une interface
- * unifiée pour leur exécution.
- */
 public class TodoListManager {
     private static final CommandRegistry commandRegistry = new CommandRegistry();
+    private static boolean initialized = false; // Pour s'assurer que l'initialisation n'est faite qu'une seule fois
 
     static {
         commandRegistry.registerCommand("insert", InsertCommand::new);
         commandRegistry.registerCommand("list", ListCommand::new);
         commandRegistry.registerCommand("migrate", MigrateCommand::new);
-        // Ajoutez d'autres commandes ici au besoin.
+    }
+
+    public static void initialize() {
+        if (!initialized) {
+            FileFormatManagerFactory.registerFormatManager("csv", CsvManager.class);
+            FileFormatManagerFactory.registerFormatManager("json", JsonManager.class);
+            initialized = true;
+        }
     }
 
     public static int handleCommand(String[] args) throws Exception {
-        // Réorganiser les arguments pour que le nom de la commande soit en premier
+        initialize(); // Assurez-vous que l'initialisation est effectuée avant de traiter les commandes
+
         String[] reorderedArgs = reorderArguments(args);
         if (reorderedArgs.length < 1) {
+            LogManager.log("Please specify a command. (TodoListManager:handleCommand)");
             System.err.println("Please specify a command.");
             return 1;
         }
@@ -37,14 +36,13 @@ public class TodoListManager {
         try {
             return commandRegistry.getCommand(commandType, commandArgs).execute();
         } catch (IllegalArgumentException e) {
+            LogManager.log("Invalid command (TodoListManager:handleCommand): " + commandType + ". " + e.getMessage());
             System.err.println(e.getMessage());
             return 1;
         }
     }
 
     private static String[] reorderArguments(String[] args) {
-        // Mettez ici la logique de réorganisation. Par exemple, cherchez le premier mot clé de commande valide.
-        // Ceci est juste un exemple. Vous devrez adapter cette méthode selon vos besoins spécifiques.
         for (int i = 0; i < args.length; i++) {
             if ("insert".equals(args[i]) || "list".equals(args[i]) || "migrate".equals(args[i]) || "web".equals(args[i])) {
                 String command = args[i];
@@ -62,4 +60,3 @@ public class TodoListManager {
         return args;
     }
 }
-
