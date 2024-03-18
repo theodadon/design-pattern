@@ -1,0 +1,608 @@
+list -s tmp--4383138321693660985.csv --done
+list -s tmp-7782421923918206869.csv
+insert -s tmp-3361007868262145554.csv --done You're a wizard, Harry.
+migrate -s tmp-423760547144171148.csv -o tmp-3361007868262145554.csv
+list -s tmp-3361007868262145554.csv --done
+insert -s tmp--232258644221326100.csv --done It’s a moo point. It’s like a cow’s opinion; it doesn’t matter. It’s moo.
+migrate -s tmp--4051337871431157264.csv -o tmp--232258644221326100.csv
+list -s tmp--232258644221326100.csv
+insert -s tmp-2916515061356530609.csv --done Uncertainty is inherently unsustainable. Eventually, everything either is or isn't.
+insert -s tmp-2916515061356530609.csv Suit Up
+migrate -s tmp-4679900704004949758.csv -o tmp-2916515061356530609.csv
+list -s tmp-2916515061356530609.csv --done
+insert -s tmp-6427170312189171378.csv --done It’s a moo point. It’s like a cow’s opinion; it doesn’t matter. It’s moo.
+insert -s tmp-6427170312189171378.csv True Story
+migrate -s tmp--1056313078538164827.csv -o tmp-6427170312189171378.csv
+list -s tmp-6427170312189171378.csv
+insert -s tmp--5174136821486116647.csv --done Patent Pending
+insert -s tmp--5174136821486116647.csv Challenege Accepted
+insert -s tmp--5174136821486116647.csv --done Lawyered
+migrate -s tmp-2609690149834272574.csv -o tmp--5174136821486116647.csv
+list -s tmp--5174136821486116647.csv --done
+insert -s tmp--1962756858127832172.csv --done Where’s the poop?
+insert -s tmp--1962756858127832172.csv We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are.
+insert -s tmp--1962756858127832172.csv --done I’m not someone who goes after a guy five minutes after he’s divorced.
+migrate -s tmp--6842398933070193799.csv -o tmp--1962756858127832172.csv
+list -s tmp--1962756858127832172.csv
+insert -s tmp--2010561159217814924.csv --done Happiness can be found even in the darkest of times if only one remembers to turn on the light.
+list -s tmp--2010561159217814924.csv --done
+insert -s tmp-5656604217548219526.csv --done We could all have been killed - or worse, expelled.
+list -s tmp-5656604217548219526.csv
+insert -s tmp-3091061548590633681.csv --done Guys can fake it? Unbelievable! The one thing that’s ours!
+insert -s tmp--4420657687027475732.csv --done Wait For it
+migrate -s tmp-3091061548590633681.csv -o tmp--4420657687027475732.csv
+list -s tmp--4420657687027475732.csv --done
+insert -s tmp--5195309256136048184.csv --done Chuck Norris programs do not accept input.
+insert -s tmp--4860184795192979418.csv --done It's a figure of speech, Morty! They're bureaucrats! I don't respect them. Just keep shooting, Morty! You have no idea what prison is like here!
+migrate -s tmp--5195309256136048184.csv -o tmp--4860184795192979418.csv
+list -s tmp--4860184795192979418.csv
+insert -s tmp--5493804853747226104.csv --done Aw, c'mon Rick. That doesn't seem so bad.
+insert -s tmp--4672431321400062242.csv --done Chuck Norris knows the last digit of PI.
+insert -s tmp--4672431321400062242.csv But… umm
+migrate -s tmp--5493804853747226104.csv -o tmp--4672431321400062242.csv
+list -s tmp--4672431321400062242.csv --done
+insert -s tmp--2002596906593468064.csv --done Chuck Norris' addition operator doesn't commute; it teleports to where he needs it to be.
+insert -s tmp--488299428344847676.csv --done Sometimes science is a lot more art, than science. A lot of people don't get that.
+insert -s tmp--488299428344847676.csv Chuck Norris can binary search unsorted data.
+migrate -s tmp--2002596906593468064.csv -o tmp--488299428344847676.csv
+list -s tmp--488299428344847676.csv
+insert -s tmp-1831148794978301655.csv --done That's the difference between you and me, Morty. I never go back to the carpet store.
+insert -s tmp-6527593774547831885.csv --done Go home and drink, grandpa.
+insert -s tmp-6527593774547831885.csv Ross, just for my own peace of mind, you’re not married to any more of us are you?
+insert -s tmp-6527593774547831885.csv --done What Up
+migrate -s tmp-1831148794978301655.csv -o tmp-6527593774547831885.csv
+list -s tmp-6527593774547831885.csv --done
+insert -s tmp--4079980688094711395.csv --done Things we lose have a way of coming back to us in the end, if not always in the way we expect.
+insert -s tmp-4913361793658547505.csv --done Where’s the poop?
+insert -s tmp-4913361793658547505.csv I hate to break it to you, but what people call 'love' is just a chemical reaction that compels animals to breed. It hits hard Morty then it slowly fades leaving you stranded in a failing marriage. I did it. Your parents are going to do it. Break the cycle Morty, rise above, focus on science.
+insert -s tmp-4913361793658547505.csv --done That’s the Dream
+migrate -s tmp--4079980688094711395.csv -o tmp-4913361793658547505.csv
+list -s tmp-4913361793658547505.csv
+insert -s tmp-4475889886948191920.csv --done True Story
+insert -s tmp-4475889886948191920.csv There are some things you can't share without ending up liking each other, and knocking out a twelve-foot mountain troll is one of them.
+list -s tmp-4475889886948191920.csv --done
+insert -s tmp--5754234992416310746.csv --done Having a family doesn't mean that you stop being an individual.
+insert -s tmp--5754234992416310746.csv I'm Monica. I’m disgusting. I stalk guys and keep their underpants.
+list -s tmp--5754234992416310746.csv
+insert -s tmp--1030464971385489162.csv --done I’m glad we’re having a rehearsal dinner. I rarely practice my meals before I eat.
+insert -s tmp--1030464971385489162.csv All browsers support the hex definitions #chuck and #norris for the colors black and blue.
+insert -s tmp--7805094483078388147.csv --done It’s a moo point. It’s like a cow’s opinion; it doesn’t matter. It’s moo.
+migrate -s tmp--1030464971385489162.csv -o tmp--7805094483078388147.csv
+list -s tmp--7805094483078388147.csv --done
+insert -s tmp-8301178980385896539.csv --done Get off the high road Summer. We all got pink eye because you wouldn't stop texting on the toilet.
+insert -s tmp-8301178980385896539.csv Never trust anything that can think for itself if you can't see where it keeps its brain.
+insert -s tmp--7287107113736243926.csv --done Happiness can be found even in the darkest of times if only one remembers to turn on the light.
+migrate -s tmp-8301178980385896539.csv -o tmp--7287107113736243926.csv
+list -s tmp--7287107113736243926.csv
+insert -s tmp--1192788917493538213.csv --done Could I BE wearing any more clothes?
+insert -s tmp--1192788917493538213.csv You don't disable the Chuck Norris plug-in, it disables you.
+insert -s tmp--9220580579558476579.csv --done Suit Up
+insert -s tmp--9220580579558476579.csv The only pattern Chuck Norris knows is God Object.
+migrate -s tmp--1192788917493538213.csv -o tmp--9220580579558476579.csv
+list -s tmp--9220580579558476579.csv --done
+insert -s tmp--1382318335618582671.csv --done Come on Ross you’re a palaeontologist – dig a little deeper.
+insert -s tmp--1382318335618582671.csv If the homo sapiens were, in fact, HOMO sapiens…is that why they’re extinct?
+insert -s tmp-382165076367794530.csv --done Dark and difficult times lie ahead. Soon we must all face the choice between what is right and what is easy.
+insert -s tmp-382165076367794530.csv All right, look if you absolutely have to tell her the truth, at least wait until the timing’s right. And that’s what deathbeds are for.
+migrate -s tmp--1382318335618582671.csv -o tmp-382165076367794530.csv
+list -s tmp-382165076367794530.csv
+insert -s tmp-1962644994390297259.csv --done Chuck Norris rewrote the Google search engine from scratch.
+insert -s tmp-1962644994390297259.csv We could all have been killed - or worse, expelled.
+insert -s tmp--3616243606415434531.csv --done SEVEN! SEVEN! SEVEN!
+insert -s tmp--3616243606415434531.csv Words are in my not-so-humble opinion, the most inexhaustible form of magic we have, capable both of inflicting injury and remedying it.
+insert -s tmp--3616243606415434531.csv --done Challenege Accepted
+migrate -s tmp-1962644994390297259.csv -o tmp--3616243606415434531.csv
+list -s tmp--3616243606415434531.csv --done
+insert -s tmp--386555006292174754.csv --done Oh Summer, haha first race war, huh?
+insert -s tmp--386555006292174754.csv You sort of start thinking anything’s possible if you’ve got enough nerve.
+insert -s tmp--5990162106907155452.csv --done There is nothing regular about Chuck Norris' expressions.
+insert -s tmp--5990162106907155452.csv I want that Mulan McNugget sauce, Morty!
+insert -s tmp--5990162106907155452.csv --done You're like Hitler, except...Hitler cared about Germany, or something.
+migrate -s tmp--386555006292174754.csv -o tmp--5990162106907155452.csv
+list -s tmp--5990162106907155452.csv
+insert -s tmp--6591805560057080870.csv --done That's the difference between you and me, Morty. I never go back to the carpet store.
+insert -s tmp--6591805560057080870.csv There is no need to try catching Chuck Norris' exceptions for recovery; every single throw he does is fatal.
+insert -s tmp--6591805560057080870.csv --done Classic Shmosby
+list -s tmp--6591805560057080870.csv --done
+insert -s tmp--7924300981949228814.csv --done Never trust anything that can think for itself if you can't see where it keeps its brain.
+insert -s tmp--7924300981949228814.csv Just… O.K?
+insert -s tmp--7924300981949228814.csv --done Dark and difficult times lie ahead. Soon we must all face the choice between what is right and what is easy.
+list -s tmp--7924300981949228814.csv
+insert -s tmp-167516881362906370.csv --done I solemnly swear that I am up to no good.
+insert -s tmp-167516881362906370.csv Chuck Norris never gets a syntax error. Instead, the language gets a DoesNotConformToChuck error.
+insert -s tmp-167516881362906370.csv --done Suit Up
+insert -s tmp-7092326509540843653.csv --done A hundred million people went to see a movie about what I do. I wonder how many people would go see a movie called Jurassic Parka. No, no, no, a bunch of out-of-control jackets take over an island!
+migrate -s tmp-167516881362906370.csv -o tmp-7092326509540843653.csv
+list -s tmp-7092326509540843653.csv --done
+insert -s tmp-8260339752068881851.csv --done No! No, Joey! U-N-I-sex.
+insert -s tmp-8260339752068881851.csv Never trust anything that can think for itself if you can't see where it keeps its brain.
+insert -s tmp-8260339752068881851.csv --done Chuck Norris does not use exceptions when programming. He has not been able to identify any of his code that is not exceptional.
+insert -s tmp-1993200437068990097.csv --done Chuck Norris never gets a syntax error. Instead, the language gets a DoesNotConformToChuck error.
+migrate -s tmp-8260339752068881851.csv -o tmp-1993200437068990097.csv
+list -s tmp-1993200437068990097.csv
+insert -s tmp-5190490493679402322.csv --done It does not do to dwell on dreams and forget to live.
+insert -s tmp-5190490493679402322.csv Chuck Norris can instantiate an abstract class.
+insert -s tmp-5190490493679402322.csv --done It is our choices, Harry, that show what we truly are, far more than our abilities.
+insert -s tmp-7864564001944381245.csv --done Just… O.K?
+insert -s tmp-7864564001944381245.csv It does not do to dwell on dreams and forget to live.
+migrate -s tmp-5190490493679402322.csv -o tmp-7864564001944381245.csv
+list -s tmp-7864564001944381245.csv --done
+insert -s tmp--6586399853097932358.csv --done It is our choices, Harry, that show what we truly are, far more than our abilities.
+insert -s tmp--6586399853097932358.csv Fine judge all you want but... married a lesbian, left a man at the altar, fell in love with a gay ice dancer, threw a girl’s wooden leg in the fire, LIVE IN A BOX.
+insert -s tmp--6586399853097932358.csv --done Nobody exists on purpose. Nobody belongs anywhere. Everybody is going to die.
+insert -s tmp--8815582739133960236.csv --done How you doin’?
+insert -s tmp--8815582739133960236.csv Lawyered
+migrate -s tmp--6586399853097932358.csv -o tmp--8815582739133960236.csv
+list -s tmp--8815582739133960236.csv
+insert -s tmp--4536498692123756709.csv --done Chuck Norris can recite π. Backwards.
+insert -s tmp--4536498692123756709.csv I’m not someone who goes after a guy five minutes after he’s divorced.
+insert -s tmp--4536498692123756709.csv --done I'm more than just a hammer.
+insert -s tmp-8943363937323282799.csv --done Classic Shmosby
+insert -s tmp-8943363937323282799.csv Well then get your shit together. Get it all together and put it in a backpack, all your shit, so it's together. ...and if you gotta take it somewhere, take it somewhere ya know? Take it to the shit store and sell it, or put it in a shit museum. I don't care what you do, you just gotta get it together... Get your shit together.
+insert -s tmp-8943363937323282799.csv --done Chuck Norris can unit test an entire application with a single assert.
+migrate -s tmp--4536498692123756709.csv -o tmp-8943363937323282799.csv
+list -s tmp-8943363937323282799.csv --done
+insert -s tmp--8508857172766277060.csv --done Little tip, Morty. Never clean DNA vials with your spit.
+insert -s tmp--8508857172766277060.csv Nobody exists on purpose. Nobody belongs anywhere. Everybody is going to die.
+insert -s tmp--8508857172766277060.csv --done No statement can catch the ChuckNorrisException.
+insert -s tmp--3488138755467785392.csv --done Oh, are you setting Ross up with someone? Does she have a wedding dress?
+insert -s tmp--3488138755467785392.csv Patent Pending
+insert -s tmp--3488138755467785392.csv --done Just… O.K?
+migrate -s tmp--8508857172766277060.csv -o tmp--3488138755467785392.csv
+list -s tmp--3488138755467785392.csv
+list -s tmp-7898983919373737127.csv --done
+list -s tmp--5942407237499062189.csv
+insert -s tmp--4791941410679332599.json --done Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?
+migrate -s tmp-7345782579089809513.csv -o tmp--4791941410679332599.json
+list -s tmp--4791941410679332599.json --done
+insert -s tmp-559950277570777348.json --done This isn't Game of Thrones, Morty.
+migrate -s tmp-742337361832281057.csv -o tmp-559950277570777348.json
+list -s tmp-559950277570777348.json
+insert -s tmp-1418312770784289516.json --done Classic Shmosby
+insert -s tmp-1418312770784289516.json Meeseeks are not born into this world fumbling for meaning, Jerry! We are created to serve a single purpose, for which we go to any lengths to fulfill.
+migrate -s tmp-7396931382699282313.csv -o tmp-1418312770784289516.json
+list -s tmp-1418312770784289516.json --done
+insert -s tmp--1111908722375618485.json --done Where’s the poop?
+insert -s tmp--1111908722375618485.json If the homo sapiens were, in fact, HOMO sapiens…is that why they’re extinct?
+migrate -s tmp-771393732295846109.csv -o tmp--1111908722375618485.json
+list -s tmp--1111908722375618485.json
+insert -s tmp-3665421649242995771.json --done Je m’appelle Claude
+insert -s tmp-3665421649242995771.json I'm more than just a hammer.
+insert -s tmp-3665421649242995771.json --done He's not a hot girl. He can't just bail on his life and set up shop in someone else's.
+migrate -s tmp--3892268018698308681.csv -o tmp-3665421649242995771.json
+list -s tmp-3665421649242995771.json --done
+insert -s tmp-2536425322641953538.json --done It’s wingardium leviOsa, not leviosAH.
+insert -s tmp-2536425322641953538.json Chuck Norris doesn't believe in floating point numbers because they can't be typed on his binary keyboard.
+insert -s tmp-2536425322641953538.json --done I don't get it and I don't need to.
+migrate -s tmp--5542099116972154179.csv -o tmp-2536425322641953538.json
+list -s tmp-2536425322641953538.json
+insert -s tmp-4375831316578209695.csv --done I can’t believe my Dad saw us having sex! He didn’t make it to one of my piano recitals, but this he sees!
+list -s tmp-4375831316578209695.csv --done
+insert -s tmp-6484583184807782456.csv --done Oh, I'm sorry Morty, are you the scientist or are you the kid who wanted to get laid?
+list -s tmp-6484583184807782456.csv
+insert -s tmp--9009078990252560632.csv --done I solemnly swear that I am up to no good.
+insert -s tmp-2901118676927132191.json --done If you want to receive emails about my upcoming shows please give me money so I can buy a computer.
+migrate -s tmp--9009078990252560632.csv -o tmp-2901118676927132191.json
+list -s tmp-2901118676927132191.json --done
+insert -s tmp-1827570490331301251.csv --done You're our boy dog, don't even trip.
+insert -s tmp-2516173472513481308.json --done Chuck Norris' preferred IDE is hexedit.
+migrate -s tmp-1827570490331301251.csv -o tmp-2516173472513481308.json
+list -s tmp-2516173472513481308.json
+insert -s tmp-9125474292610409253.csv --done It is the unknown we fear when we look upon death and darkness, nothing more.
+insert -s tmp-6387038799959503662.json --done Guys can fake it? Unbelievable! The one thing that’s ours!
+insert -s tmp-6387038799959503662.json So what if the most meaningful day in your life was a simulation operating at minimum complexity.
+migrate -s tmp-9125474292610409253.csv -o tmp-6387038799959503662.json
+list -s tmp-6387038799959503662.json --done
+insert -s tmp--8895464393816993133.csv --done But… umm
+insert -s tmp-2535185344746744873.json --done What Up
+insert -s tmp-2535185344746744873.json That just sounds like slavery with extra steps.
+migrate -s tmp--8895464393816993133.csv -o tmp-2535185344746744873.json
+list -s tmp-2535185344746744873.json
+insert -s tmp-796323447545154374.csv --done Lawyered
+insert -s tmp-5640905387593204476.json --done There is no god, Summer; gotta rip that band-aid off now you'll thank me later.
+insert -s tmp-5640905387593204476.json No. Interestingly enough, her leaf blower picked up.
+insert -s tmp-5640905387593204476.json --done Traditionally, science fairs are a father/son thing. Well, scientifically, traditions are an idiot thing.
+migrate -s tmp-796323447545154374.csv -o tmp-5640905387593204476.json
+list -s tmp-5640905387593204476.json --done
+insert -s tmp-1997622517859709655.csv --done Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?
+insert -s tmp-8210734292744922947.json --done Challenege Accepted
+insert -s tmp-8210734292744922947.json Chuck Norris's beard can type 140 wpm.
+insert -s tmp-8210734292744922947.json --done Challenege Accepted
+migrate -s tmp-1997622517859709655.csv -o tmp-8210734292744922947.json
+list -s tmp-8210734292744922947.json
+insert -s tmp--4573870100654706175.csv --done It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.
+insert -s tmp--4573870100654706175.csv Chuck Norris' keyboard doesn't have a F1 key, the computer asks him for help.
+list -s tmp--4573870100654706175.csv --done
+insert -s tmp--2368598916181612465.csv --done What is my purpose. You pass butter. Oh My God. Yeah, Welcome to the club pal.
+insert -s tmp--2368598916181612465.csv After all this time? Always.
+list -s tmp--2368598916181612465.csv
+insert -s tmp--4620165037595396076.csv --done Patent Pending
+insert -s tmp--4620165037595396076.csv We could all have been killed - or worse, expelled.
+insert -s tmp-973894788936400404.json --done I’m glad we’re having a rehearsal dinner. I rarely practice my meals before I eat.
+migrate -s tmp--4620165037595396076.csv -o tmp-973894788936400404.json
+list -s tmp-973894788936400404.json --done
+insert -s tmp--146869117441492727.csv --done "It works on my machine" always holds true for Chuck Norris.
+insert -s tmp--146869117441492727.csv Chuck Norris can't test for equality because he has no equal.
+insert -s tmp--7032199441090522053.json --done It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.
+migrate -s tmp--146869117441492727.csv -o tmp--7032199441090522053.json
+list -s tmp--7032199441090522053.json
+insert -s tmp--5533103471728312055.csv --done Raspberries? Good. Ladyfingers? Good. Beef? GOOD!
+insert -s tmp--5533103471728312055.csv What Up
+insert -s tmp-7777211788862580717.json --done Wait For it
+insert -s tmp-7777211788862580717.json You sort of start thinking anything’s possible if you’ve got enough nerve.
+migrate -s tmp--5533103471728312055.csv -o tmp-7777211788862580717.json
+list -s tmp-7777211788862580717.json --done
+insert -s tmp-5441931323286989605.csv --done That’s the Dream
+insert -s tmp-5441931323286989605.csv Just… O.K?
+insert -s tmp--6742758136175725531.json --done Ross, just for my own peace of mind, you’re not married to any more of us are you?
+insert -s tmp--6742758136175725531.json You don't disable the Chuck Norris plug-in, it disables you.
+migrate -s tmp-5441931323286989605.csv -o tmp--6742758136175725531.json
+list -s tmp--6742758136175725531.json
+insert -s tmp--1945925939711515929.csv --done I like what you got.
+insert -s tmp--1945925939711515929.csv Meeseeks are not born into this world fumbling for meaning, Jerry! We are created to serve a single purpose, for which we go to any lengths to fulfill.
+insert -s tmp--6839049768533128247.json --done Things we lose have a way of coming back to us in the end, if not always in the way we expect.
+insert -s tmp--6839049768533128247.json Legendary
+insert -s tmp--6839049768533128247.json --done It does not do to dwell on dreams and forget to live.
+migrate -s tmp--1945925939711515929.csv -o tmp--6839049768533128247.json
+list -s tmp--6839049768533128247.json --done
+insert -s tmp--473810669085682936.csv --done Chuck Norris can binary search unsorted data.
+insert -s tmp--473810669085682936.csv Oh no, two women love me. They're both gorgeous and sexy. My wallet's too small for my fifties AND MY DIAMOND SHOES ARE TOO TIGHT.
+insert -s tmp-4521282532587250394.json --done Aw, c'mon Rick. That doesn't seem so bad.
+insert -s tmp-4521282532587250394.json That’s the Dream
+insert -s tmp-4521282532587250394.json --done Having a family doesn't mean that you stop being an individual.
+migrate -s tmp--473810669085682936.csv -o tmp-4521282532587250394.json
+list -s tmp-4521282532587250394.json
+insert -s tmp--3965567660122774942.csv --done Chuck Norris can write multi-threaded applications with a single thread.
+insert -s tmp--3965567660122774942.csv You’ve been BAMBOOZLED!
+insert -s tmp--3965567660122774942.csv --done Chuck Norris doesn't need garbage collection because he doesn't call .Dispose(), he calls .DropKick().
+list -s tmp--3965567660122774942.csv --done
+insert -s tmp-747447991747833344.csv --done Chuck Norris' protocol design method has no status, requests or responses, only commands.
+insert -s tmp-747447991747833344.csv The class object inherits from Chuck Norris.
+insert -s tmp-747447991747833344.csv --done There is nothing regular about Chuck Norris' expressions.
+list -s tmp-747447991747833344.csv
+insert -s tmp-6032032420121688262.csv --done I hate to break it to you, but what people call 'love' is just a chemical reaction that compels animals to breed. It hits hard Morty then it slowly fades leaving you stranded in a failing marriage. I did it. Your parents are going to do it. Break the cycle Morty, rise above, focus on science.
+insert -s tmp-6032032420121688262.csv Ohh yea, you gotta get schwifty.
+insert -s tmp-6032032420121688262.csv --done It’s a moo point. It’s like a cow’s opinion; it doesn’t matter. It’s moo.
+insert -s tmp--7322922261032571135.json --done This isn't Game of Thrones, Morty.
+migrate -s tmp-6032032420121688262.csv -o tmp--7322922261032571135.json
+list -s tmp--7322922261032571135.json --done
+insert -s tmp--8458888378141403627.csv --done That’s the Dream
+insert -s tmp--8458888378141403627.csv Having a family doesn't mean that you stop being an individual.
+insert -s tmp--8458888378141403627.csv --done The programs that Chuck Norris writes don't have version numbers because he only writes them once. If a user reports a bug or has a feature request they don't live to see the sun set.
+insert -s tmp-6049592469578884700.json --done Hey buddy, this is a family place. Put the mouse back in the house.
+migrate -s tmp--8458888378141403627.csv -o tmp-6049592469578884700.json
+list -s tmp-6049592469578884700.json
+insert -s tmp-2745199272395489026.csv --done Uncertainty is inherently unsustainable. Eventually, everything either is or isn't.
+insert -s tmp-2745199272395489026.csv It’s wingardium leviOsa, not leviosAH.
+insert -s tmp-2745199272395489026.csv --done Traditionally, science fairs are a father/son thing. Well, scientifically, traditions are an idiot thing.
+insert -s tmp-4697697784583791082.json --done Chuck Norris programs do not accept input.
+insert -s tmp-4697697784583791082.json Little tip, Morty. Never clean DNA vials with your spit.
+migrate -s tmp-2745199272395489026.csv -o tmp-4697697784583791082.json
+list -s tmp-4697697784583791082.json --done
+insert -s tmp-2752597289627334040.csv --done You're a wizard, Harry.
+insert -s tmp-2752597289627334040.csv Suit Up
+insert -s tmp-2752597289627334040.csv --done True Story
+insert -s tmp-2711986514880559784.json --done Pluto's a planet.
+insert -s tmp-2711986514880559784.json Just… O.K?
+migrate -s tmp-2752597289627334040.csv -o tmp-2711986514880559784.json
+list -s tmp-2711986514880559784.json
+insert -s tmp--2111195141816912126.csv --done There are some things you can't share without ending up liking each other, and knocking out a twelve-foot mountain troll is one of them.
+insert -s tmp--2111195141816912126.csv Chuck Norris' keyboard doesn't have a F1 key, the computer asks him for help.
+insert -s tmp--2111195141816912126.csv --done Chuck Norris can write infinite recursion functions... and have them return.
+insert -s tmp--5969023302941537529.json --done There is no need to try catching Chuck Norris' exceptions for recovery; every single throw he does is fatal.
+insert -s tmp--5969023302941537529.json Raspberries? Good. Ladyfingers? Good. Beef? GOOD!
+insert -s tmp--5969023302941537529.json --done Well, maybe he was nervous.
+migrate -s tmp--2111195141816912126.csv -o tmp--5969023302941537529.json
+list -s tmp--5969023302941537529.json --done
+insert -s tmp--5222681768463302112.csv --done Chuck Norris is immutable. If something's going to change, it's going to have to be the rest of the universe.
+insert -s tmp--5222681768463302112.csv It was summer… and it was hot. Rachel was there… A lonely grey couch…”OH LOOK!” cried Ned, and then the kingdom was his forever. The End.
+insert -s tmp--5222681768463302112.csv --done Chuck Norris' preferred IDE is hexedit.
+insert -s tmp--1824139378926569507.json --done I'm the devil. What should I do when I fail? Give myself an ice cream?
+insert -s tmp--1824139378926569507.json That’s the Dream
+insert -s tmp--1824139378926569507.json --done You’ve been BAMBOOZLED!
+migrate -s tmp--5222681768463302112.csv -o tmp--1824139378926569507.json
+list -s tmp--1824139378926569507.json
+list -s tmp-2597470405205421006.json --done
+list -s tmp--3100346213240515110.json
+insert -s tmp--913806781367767893.csv --done Come on Ross you’re a palaeontologist – dig a little deeper.
+migrate -s tmp-3984058296415131620.json -o tmp--913806781367767893.csv
+list -s tmp--913806781367767893.csv --done
+insert -s tmp--58089468533166915.csv --done You're a wizard, Harry.
+migrate -s tmp--6613301611395882127.json -o tmp--58089468533166915.csv
+list -s tmp--58089468533166915.csv
+insert -s tmp--264277878297311585.csv --done Welcome to the real world. It sucks. You’re gonna love it!
+insert -s tmp--264277878297311585.csv The first rule of space travel kids is always check out distress beacons. Nine out of ten times it's a ship full of dead aliens and a bunch of free shit! One out of ten times it's a deadly trap, but... I'm ready to roll those dice!
+migrate -s tmp-3650170424553648650.json -o tmp--264277878297311585.csv
+list -s tmp--264277878297311585.csv --done
+insert -s tmp-6798038736875479607.csv --done There is no god, Summer; gotta rip that band-aid off now you'll thank me later.
+insert -s tmp-6798038736875479607.csv Chuck Norris' preferred IDE is hexedit.
+migrate -s tmp-1263949125389808883.json -o tmp-6798038736875479607.csv
+list -s tmp-6798038736875479607.csv
+insert -s tmp-4188048658717974517.csv --done This isn't Game of Thrones, Morty.
+insert -s tmp-4188048658717974517.csv Lawyered
+insert -s tmp-4188048658717974517.csv --done If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.
+migrate -s tmp-5087121955181560759.json -o tmp-4188048658717974517.csv
+list -s tmp-4188048658717974517.csv --done
+insert -s tmp--1312971929738244048.csv --done Lawyered
+insert -s tmp--1312971929738244048.csv Chuck Norris can read all encrypted data, because nothing can hide from Chuck Norris.
+insert -s tmp--1312971929738244048.csv --done Fine judge all you want but... married a lesbian, left a man at the altar, fell in love with a gay ice dancer, threw a girl’s wooden leg in the fire, LIVE IN A BOX.
+migrate -s tmp--72754772056082988.json -o tmp--1312971929738244048.csv
+list -s tmp--1312971929738244048.csv
+insert -s tmp-4387515261170284228.json --done What about the reality where Hitler cured cancer, Morty? The answer is: Don't think about it.
+list -s tmp-4387515261170284228.json --done
+insert -s tmp-2751696672368891221.json --done No story lives unless someone wants to listen. The stories we love best do live in us forever. So whether you come back by page or by the big screen, Hogwarts will always be there to welcome you home.
+list -s tmp-2751696672368891221.json
+insert -s tmp--3934760374761381623.json --done All arrays Chuck Norris declares are of infinite size, because Chuck Norris knows no bounds.
+insert -s tmp--4554389936086024318.csv --done Things we lose have a way of coming back to us in the end, if not always in the way we expect.
+migrate -s tmp--3934760374761381623.json -o tmp--4554389936086024318.csv
+list -s tmp--4554389936086024318.csv --done
+insert -s tmp--9184751147611750560.json --done What Up
+insert -s tmp--7965792854905847710.csv --done It’s wingardium leviOsa, not leviosAH.
+migrate -s tmp--9184751147611750560.json -o tmp--7965792854905847710.csv
+list -s tmp--7965792854905847710.csv
+insert -s tmp--4235314080128730371.json --done Your teeth? Yeah, I saw them from outside.
+insert -s tmp--4690974793088486682.csv --done I'm the devil. What should I do when I fail? Give myself an ice cream?
+insert -s tmp--4690974793088486682.csv Challenege Accepted
+migrate -s tmp--4235314080128730371.json -o tmp--4690974793088486682.csv
+list -s tmp--4690974793088486682.csv --done
+insert -s tmp--8387662546970110573.json --done Things we lose have a way of coming back to us in the end, if not always in the way we expect.
+insert -s tmp-2612873186696234415.csv --done Chuck Norris doesn't need to know about class factory pattern. He can instantiate interfaces.
+insert -s tmp-2612873186696234415.csv Chuck Norris doesn't program with a keyboard. He stares the computer down until it does what he wants.
+migrate -s tmp--8387662546970110573.json -o tmp-2612873186696234415.csv
+list -s tmp-2612873186696234415.csv
+insert -s tmp-3211821144184927634.json --done I’m glad we’re having a rehearsal dinner. I rarely practice my meals before I eat.
+insert -s tmp-3771465474435342817.csv --done If the homo sapiens were, in fact, HOMO sapiens…is that why they’re extinct?
+insert -s tmp-3771465474435342817.csv Chuck Norris doesn't program with a keyboard. He stares the computer down until it does what he wants.
+insert -s tmp-3771465474435342817.csv --done There is no Esc key on Chuck Norris' keyboard, because no one escapes Chuck Norris.
+migrate -s tmp-3211821144184927634.json -o tmp-3771465474435342817.csv
+list -s tmp-3771465474435342817.csv --done
+insert -s tmp-6014039008559821773.json --done Patent Pending
+insert -s tmp-7860194149078157125.csv --done Don’t even trip dawg.
+insert -s tmp-7860194149078157125.csv When Chuck Norris' code fails to compile the compiler apologises.
+insert -s tmp-7860194149078157125.csv --done But… umm
+migrate -s tmp-6014039008559821773.json -o tmp-7860194149078157125.csv
+list -s tmp-7860194149078157125.csv
+insert -s tmp-1127699909394696831.json --done I solemnly swear that I am up to no good.
+insert -s tmp-1127699909394696831.json Chuck Norris doesn't get compiler errors, the language changes itself to accommodate Chuck Norris.
+list -s tmp-1127699909394696831.json --done
+insert -s tmp--4787556872655573294.json --done But… umm
+insert -s tmp--4787556872655573294.json You can’t have S-E-X when your taking care of the B-A-B-I-E.
+list -s tmp--4787556872655573294.json
+insert -s tmp-4167813583483973472.json --done Well then get your shit together. Get it all together and put it in a backpack, all your shit, so it's together. ...and if you gotta take it somewhere, take it somewhere ya know? Take it to the shit store and sell it, or put it in a shit museum. I don't care what you do, you just gotta get it together... Get your shit together.
+insert -s tmp-4167813583483973472.json Chuck Norris can read all encrypted data, because nothing can hide from Chuck Norris.
+insert -s tmp-6423265801030742206.csv --done Just because you have the emotional range of a teaspoon doesn’t mean we all have.
+migrate -s tmp-4167813583483973472.json -o tmp-6423265801030742206.csv
+list -s tmp-6423265801030742206.csv --done
+insert -s tmp-8087240851561783142.json --done I’m not someone who goes after a guy five minutes after he’s divorced.
+insert -s tmp-8087240851561783142.json There are some things you can't share without ending up liking each other, and knocking out a twelve-foot mountain troll is one of them.
+insert -s tmp--7346340278087268533.csv --done If you want to receive emails about my upcoming shows please give me money so I can buy a computer.
+migrate -s tmp-8087240851561783142.json -o tmp--7346340278087268533.csv
+list -s tmp--7346340278087268533.csv
+insert -s tmp-2710534664743149604.json --done You could not be any more wrong. You could try, but you would not be successful.
+insert -s tmp-2710534664743149604.json I solemnly swear that I am up to no good.
+insert -s tmp--2943899331231316297.csv --done Chuck Norris doesn't use a computer because a computer does everything slower than Chuck Norris.
+insert -s tmp--2943899331231316297.csv Classic Shmosby
+migrate -s tmp-2710534664743149604.json -o tmp--2943899331231316297.csv
+list -s tmp--2943899331231316297.csv --done
+insert -s tmp--6463399207598000542.json --done You're our boy dog, don't even trip.
+insert -s tmp--6463399207598000542.json Challenege Accepted
+insert -s tmp--4325656234036637947.csv --done It is the unknown we fear when we look upon death and darkness, nothing more.
+insert -s tmp--4325656234036637947.csv That's the difference between you and me, Morty. I never go back to the carpet store.
+migrate -s tmp--6463399207598000542.json -o tmp--4325656234036637947.csv
+list -s tmp--4325656234036637947.csv
+insert -s tmp--1754410199182130983.json --done Oh, I'm sorry Morty, are you the scientist or are you the kid who wanted to get laid?
+insert -s tmp--1754410199182130983.json Having a family doesn't mean that you stop being an individual.
+insert -s tmp--8831796269662431417.csv --done Patent Pending
+insert -s tmp--8831796269662431417.csv It’s wingardium leviOsa, not leviosAH.
+insert -s tmp--8831796269662431417.csv --done Chuck Norris doesn't use a computer because a computer does everything slower than Chuck Norris.
+migrate -s tmp--1754410199182130983.json -o tmp--8831796269662431417.csv
+list -s tmp--8831796269662431417.csv --done
+insert -s tmp--3795815305170553971.json --done Chuck Norris programs do not accept input.
+insert -s tmp--3795815305170553971.json What Up
+insert -s tmp-973152234713255546.csv --done I can’t believe my Dad saw us having sex! He didn’t make it to one of my piano recitals, but this he sees!
+insert -s tmp-973152234713255546.csv Oh no, two women love me. They're both gorgeous and sexy. My wallet's too small for my fifties AND MY DIAMOND SHOES ARE TOO TIGHT.
+insert -s tmp-973152234713255546.csv --done There is no god, Summer; gotta rip that band-aid off now you'll thank me later.
+migrate -s tmp--3795815305170553971.json -o tmp-973152234713255546.csv
+list -s tmp-973152234713255546.csv
+insert -s tmp-3872860492398315499.json --done All arrays Chuck Norris declares are of infinite size, because Chuck Norris knows no bounds.
+insert -s tmp-3872860492398315499.json If you’re going to call me names, I would prefer Ross, the Divorce Force. It’s just cooler.
+insert -s tmp-3872860492398315499.json --done Wait For it
+list -s tmp-3872860492398315499.json --done
+insert -s tmp-5588661075640614198.json --done Suit Up
+insert -s tmp-5588661075640614198.json Chuck Norris can divide by zero.
+insert -s tmp-5588661075640614198.json --done Well then get your shit together. Get it all together and put it in a backpack, all your shit, so it's together. ...and if you gotta take it somewhere, take it somewhere ya know? Take it to the shit store and sell it, or put it in a shit museum. I don't care what you do, you just gotta get it together... Get your shit together.
+list -s tmp-5588661075640614198.json
+insert -s tmp-2689023202746180313.json --done Suit Up
+insert -s tmp-2689023202746180313.json I hate to break it to you, but what people call 'love' is just a chemical reaction that compels animals to breed. It hits hard Morty then it slowly fades leaving you stranded in a failing marriage. I did it. Your parents are going to do it. Break the cycle Morty, rise above, focus on science.
+insert -s tmp-2689023202746180313.json --done You don't disable the Chuck Norris plug-in, it disables you.
+insert -s tmp--4222742955297280641.csv --done Oh yeah, If you think my Rick is Dead, then he is alive. If you think you're safe, then he's coming for you.
+migrate -s tmp-2689023202746180313.json -o tmp--4222742955297280641.csv
+list -s tmp--4222742955297280641.csv --done
+insert -s tmp--7820186110882523789.json --done But… umm
+insert -s tmp--7820186110882523789.json All browsers support the hex definitions #chuck and #norris for the colors black and blue.
+insert -s tmp--7820186110882523789.json --done Where are my testicles, Summer?
+insert -s tmp-1961642958664337708.csv --done Yo! What up my glip glops!
+migrate -s tmp--7820186110882523789.json -o tmp-1961642958664337708.csv
+list -s tmp-1961642958664337708.csv
+insert -s tmp-3496239756297249402.json --done Having a family doesn't mean that you stop being an individual.
+insert -s tmp-3496239756297249402.json If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.
+insert -s tmp-3496239756297249402.json --done Chuck Norris hosting is 101% uptime guaranteed.
+insert -s tmp--1954269477463564178.csv --done Dark and difficult times lie ahead. Soon we must all face the choice between what is right and what is easy.
+insert -s tmp--1954269477463564178.csv Where’s the poop?
+migrate -s tmp-3496239756297249402.json -o tmp--1954269477463564178.csv
+list -s tmp--1954269477463564178.csv --done
+insert -s tmp-7248360740157251459.json --done Classic Shmosby
+insert -s tmp-7248360740157251459.json Wait For it
+insert -s tmp-7248360740157251459.json --done Traditionally, science fairs are a father/son thing. Well, scientifically, traditions are an idiot thing.
+insert -s tmp--7929100609662944816.csv --done It's a figure of speech, Morty! They're bureaucrats! I don't respect them. Just keep shooting, Morty! You have no idea what prison is like here!
+insert -s tmp--7929100609662944816.csv Words are in my not-so-humble opinion, the most inexhaustible form of magic we have, capable both of inflicting injury and remedying it.
+migrate -s tmp-7248360740157251459.json -o tmp--7929100609662944816.csv
+list -s tmp--7929100609662944816.csv
+insert -s tmp--6928578816895108469.json --done Whiteboards are white because Chuck Norris scared them that way.
+insert -s tmp--6928578816895108469.json Classic Shmosby
+insert -s tmp--6928578816895108469.json --done If the homo sapiens were, in fact, HOMO sapiens…is that why they’re extinct?
+insert -s tmp-5471497315606601812.csv --done Pivot! Pivot! Pivot! Pivot! Pivot!
+insert -s tmp-5471497315606601812.csv What Up
+insert -s tmp-5471497315606601812.csv --done Dear God! This parachute is a knapsack!
+migrate -s tmp--6928578816895108469.json -o tmp-5471497315606601812.csv
+list -s tmp-5471497315606601812.csv --done
+insert -s tmp-6423794874209341211.json --done It’s wingardium leviOsa, not leviosAH.
+insert -s tmp-6423794874209341211.json Your teeth? Yeah, I saw them from outside.
+insert -s tmp-6423794874209341211.json --done Never trust anything that can think for itself if you can't see where it keeps its brain.
+insert -s tmp--5590591119674095160.csv --done He's not a hot girl. He can't just bail on his life and set up shop in someone else's.
+insert -s tmp--5590591119674095160.csv But… umm
+insert -s tmp--5590591119674095160.csv --done Chuck Norris can compile syntax errors.
+migrate -s tmp-6423794874209341211.json -o tmp--5590591119674095160.csv
+list -s tmp--5590591119674095160.csv
+list -s tmp-8488977839873117498.json --done
+list -s tmp--9127031113493897231.json
+insert -s tmp--2558605526759471092.json --done Chuck Norris does not use revision control software. None of his code has ever needed revision.
+migrate -s tmp--4324553406051406134.json -o tmp--2558605526759471092.json
+list -s tmp--2558605526759471092.json --done
+insert -s tmp-8610660134537449497.json --done Keep Summer safe.
+migrate -s tmp--8795728804236317062.json -o tmp-8610660134537449497.json
+list -s tmp-8610660134537449497.json
+insert -s tmp-2142394250827196168.json --done Challenege Accepted
+insert -s tmp-2142394250827196168.json Raspberries? Good. Ladyfingers? Good. Beef? GOOD!
+migrate -s tmp--4743396980604853448.json -o tmp-2142394250827196168.json
+list -s tmp-2142394250827196168.json --done
+insert -s tmp--2876118126499593524.json --done Little tip, Morty. Never clean DNA vials with your spit.
+insert -s tmp--2876118126499593524.json Suit Up
+migrate -s tmp--3847127918714871563.json -o tmp--2876118126499593524.json
+list -s tmp--2876118126499593524.json
+insert -s tmp-7497283603744561075.json --done No story lives unless someone wants to listen. The stories we love best do live in us forever. So whether you come back by page or by the big screen, Hogwarts will always be there to welcome you home.
+insert -s tmp-7497283603744561075.json Ross, just for my own peace of mind, you’re not married to any more of us are you?
+insert -s tmp-7497283603744561075.json --done Weddings are basically funerals with cake.
+migrate -s tmp-868794810981762532.json -o tmp-7497283603744561075.json
+list -s tmp-7497283603744561075.json --done
+insert -s tmp--838533659865121663.json --done Chuck Norris can write multi-threaded applications with a single thread.
+insert -s tmp--838533659865121663.json Oh, I'm sorry Morty, are you the scientist or are you the kid who wanted to get laid?
+insert -s tmp--838533659865121663.json --done Chuck Norris doesn't have performance bottlenecks. He just makes the universe wait its turn.
+migrate -s tmp-6867759663803227382.json -o tmp--838533659865121663.json
+list -s tmp--838533659865121663.json
+insert -s tmp--2725940927497427967.json --done When a bug sees Chuck Norris, it flees screaming in terror, and then immediately self-destructs to avoid being roundhouse-kicked.
+list -s tmp--2725940927497427967.json --done
+insert -s tmp--2445239169878855586.json --done Pivot! Pivot! Pivot! Pivot! Pivot!
+list -s tmp--2445239169878855586.json
+insert -s tmp--1098288212587865080.json --done Chuck Norris doesn't need an OS.
+insert -s tmp-1564263370440952718.json --done Chuck Norris doesn't need the cloud to scale his applications, he uses his laptop.
+migrate -s tmp--1098288212587865080.json -o tmp-1564263370440952718.json
+list -s tmp-1564263370440952718.json --done
+insert -s tmp--6804339974405648150.json --done Classic Shmosby
+insert -s tmp-4118513261150269163.json --done Pivot! Pivot! Pivot! Pivot! Pivot!
+migrate -s tmp--6804339974405648150.json -o tmp-4118513261150269163.json
+list -s tmp-4118513261150269163.json
+insert -s tmp-7367442015810834099.json --done Dark and difficult times lie ahead. Soon we must all face the choice between what is right and what is easy.
+insert -s tmp-7625384319316229422.json --done That’s the Dream
+insert -s tmp-7625384319316229422.json Oh yeah, If you think my Rick is Dead, then he is alive. If you think you're safe, then he's coming for you.
+migrate -s tmp-7367442015810834099.json -o tmp-7625384319316229422.json
+list -s tmp-7625384319316229422.json --done
+insert -s tmp-2791191594633011993.json --done No, homo habilis was erect. Australopithecus was never fully erect.
+insert -s tmp--3741411384780108251.json --done Chuck Norris doesn't need to know about class factory pattern. He can instantiate interfaces.
+insert -s tmp--3741411384780108251.json Where’s the poop?
+migrate -s tmp-2791191594633011993.json -o tmp--3741411384780108251.json
+list -s tmp--3741411384780108251.json
+insert -s tmp--2466496903444622250.json --done Chuck Norris doesn't need to know about class factory pattern. He can instantiate interfaces.
+insert -s tmp--1598818261349350916.json --done Listen, I'm not the nicest guy in the universe, because I'm the smartest, and being nice is something stupid people do to hedge their bets.
+insert -s tmp--1598818261349350916.json All browsers support the hex definitions #chuck and #norris for the colors black and blue.
+insert -s tmp--1598818261349350916.json --done Don’t even trip dawg.
+migrate -s tmp--2466496903444622250.json -o tmp--1598818261349350916.json
+list -s tmp--1598818261349350916.json --done
+insert -s tmp--3642409572503557699.json --done It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.
+insert -s tmp--3005201317394946728.json --done Oh, I'm sorry Morty, are you the scientist or are you the kid who wanted to get laid?
+insert -s tmp--3005201317394946728.json If the homo sapiens were, in fact, HOMO sapiens…is that why they’re extinct?
+insert -s tmp--3005201317394946728.json --done Happiness can be found even in the darkest of times if only one remembers to turn on the light.
+migrate -s tmp--3642409572503557699.json -o tmp--3005201317394946728.json
+list -s tmp--3005201317394946728.json
+insert -s tmp-2968235526833911816.json --done If you want to receive emails about my upcoming shows please give me money so I can buy a computer.
+insert -s tmp-2968235526833911816.json After all this time? Always.
+list -s tmp-2968235526833911816.json --done
+insert -s tmp--1900065299058930082.json --done That's the difference between you and me, Morty. I never go back to the carpet store.
+insert -s tmp--1900065299058930082.json Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?
+list -s tmp--1900065299058930082.json
+insert -s tmp-3671489068509453654.json --done I’m glad we’re having a rehearsal dinner. I rarely practice my meals before I eat.
+insert -s tmp-3671489068509453654.json It's a figure of speech, Morty! They're bureaucrats! I don't respect them. Just keep shooting, Morty! You have no idea what prison is like here!
+insert -s tmp-3251326782623926170.json --done Weddings are basically funerals with cake.
+migrate -s tmp-3671489068509453654.json -o tmp-3251326782623926170.json
+list -s tmp-3251326782623926170.json --done
+insert -s tmp-3245009620903375589.json --done Classic Shmosby
+insert -s tmp-3245009620903375589.json I like what you got.
+insert -s tmp-5195426971262352348.json --done Chuck Norris can use GOTO as much as he wants to. Telling him otherwise is considered harmful.
+migrate -s tmp-3245009620903375589.json -o tmp-5195426971262352348.json
+list -s tmp-5195426971262352348.json
+insert -s tmp--2899917555446796319.json --done Chuck Norris doesn't bug hunt, as that signifies a probability of failure. He goes bug killing.
+insert -s tmp--2899917555446796319.json I’m not someone who goes after a guy five minutes after he’s divorced.
+insert -s tmp--456351189583351872.json --done When Chuck Norris points to null, null quakes in fear.
+insert -s tmp--456351189583351872.json Chuck Norris' addition operator doesn't commute; it teleports to where he needs it to be.
+migrate -s tmp--2899917555446796319.json -o tmp--456351189583351872.json
+list -s tmp--456351189583351872.json --done
+insert -s tmp--8047163192075699459.json --done Chuck Norris can't test for equality because he has no equal.
+insert -s tmp--8047163192075699459.json The class object inherits from Chuck Norris.
+insert -s tmp--222988836842734551.json --done WUBBA LUBBA DUB DUBS!!!
+insert -s tmp--222988836842734551.json Oh look, ugly naked guy is decorating his Christmas tree! Wow, you should see the size of his Christmas balls!
+migrate -s tmp--8047163192075699459.json -o tmp--222988836842734551.json
+list -s tmp--222988836842734551.json
+insert -s tmp-1339797839746894838.json --done Well then get your shit together. Get it all together and put it in a backpack, all your shit, so it's together. ...and if you gotta take it somewhere, take it somewhere ya know? Take it to the shit store and sell it, or put it in a shit museum. I don't care what you do, you just gotta get it together... Get your shit together.
+insert -s tmp-1339797839746894838.json It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.
+insert -s tmp--3137102184931817187.json --done Welcome to the real world. It sucks. You’re gonna love it!
+insert -s tmp--3137102184931817187.json Where’s the poop?
+insert -s tmp--3137102184931817187.json --done You know what’s weird? Donald Duck never wore pants. But whenever he’s getting out of the shower, he always puts a towel around his waist. I mean, what is that about?
+migrate -s tmp-1339797839746894838.json -o tmp--3137102184931817187.json
+list -s tmp--3137102184931817187.json --done
+insert -s tmp--646606840695239203.json --done Chuck Norris compresses his files by doing a flying round house kick to the hard drive.
+insert -s tmp--646606840695239203.json There is nothing regular about Chuck Norris' expressions.
+insert -s tmp-4288429136823904484.json --done Don’t even trip dawg.
+insert -s tmp-4288429136823904484.json There are some things you can't share without ending up liking each other, and knocking out a twelve-foot mountain troll is one of them.
+insert -s tmp-4288429136823904484.json --done That’s the Dream
+migrate -s tmp--646606840695239203.json -o tmp-4288429136823904484.json
+list -s tmp-4288429136823904484.json
+insert -s tmp-7233985478883983026.json --done Chuck Norris can solve the Towers of Hanoi in one move.
+insert -s tmp-7233985478883983026.json You sort of start thinking anything’s possible if you’ve got enough nerve.
+insert -s tmp-7233985478883983026.json --done Just… O.K?
+list -s tmp-7233985478883983026.json --done
+insert -s tmp-1680845677248931611.json --done Classic Shmosby
+insert -s tmp-1680845677248931611.json Aww, gee, you got me there Rick.
+insert -s tmp-1680845677248931611.json --done No. Interestingly enough, her leaf blower picked up.
+list -s tmp-1680845677248931611.json
+insert -s tmp--8801757377580389407.json --done No story lives unless someone wants to listen. The stories we love best do live in us forever. So whether you come back by page or by the big screen, Hogwarts will always be there to welcome you home.
+insert -s tmp--8801757377580389407.json The programs that Chuck Norris writes don't have version numbers because he only writes them once. If a user reports a bug or has a feature request they don't live to see the sun set.
+insert -s tmp--8801757377580389407.json --done What Up
+insert -s tmp--2809140833643756721.json --done It was summer… and it was hot. Rachel was there… A lonely grey couch…”OH LOOK!” cried Ned, and then the kingdom was his forever. The End.
+migrate -s tmp--8801757377580389407.json -o tmp--2809140833643756721.json
+list -s tmp--2809140833643756721.json --done
+insert -s tmp-7510749024628567066.json --done What Up
+insert -s tmp-7510749024628567066.json Words are in my not-so-humble opinion, the most inexhaustible form of magic we have, capable both of inflicting injury and remedying it.
+insert -s tmp-7510749024628567066.json --done Chuck Norris programs do not accept input.
+insert -s tmp-6192734874574573425.json --done Wait For it
+migrate -s tmp-7510749024628567066.json -o tmp-6192734874574573425.json
+list -s tmp-6192734874574573425.json
+insert -s tmp--534171357024674913.json --done There are some things you can't share without ending up liking each other, and knocking out a twelve-foot mountain troll is one of them.
+insert -s tmp--534171357024674913.json Lawyered
+insert -s tmp--534171357024674913.json --done Sure I peed on her. And if I had to, I’d pee on any one of you!
+insert -s tmp-5438410530781806682.json --done Happiness can be found even in the darkest of times if only one remembers to turn on the light.
+insert -s tmp-5438410530781806682.json Words are in my not-so-humble opinion, the most inexhaustible form of magic we have, capable both of inflicting injury and remedying it.
+migrate -s tmp--534171357024674913.json -o tmp-5438410530781806682.json
+list -s tmp-5438410530781806682.json --done
+insert -s tmp--409670489294328546.json --done Suit Up
+insert -s tmp--409670489294328546.json Quantum cryptography does not work on Chuck Norris. When something is being observed by Chuck it stays in the same state until he's finished.
+insert -s tmp--409670489294328546.json --done Chuck Norris doesn't pair program.
+insert -s tmp-2227922606262289575.json --done Project managers never ask Chuck Norris for estimations... ever.
+insert -s tmp-2227922606262289575.json It is the unknown we fear when we look upon death and darkness, nothing more.
+migrate -s tmp--409670489294328546.json -o tmp-2227922606262289575.json
+list -s tmp-2227922606262289575.json
+insert -s tmp-1269166762960900642.json --done Sure I peed on her. And if I had to, I’d pee on any one of you!
+insert -s tmp-1269166762960900642.json When Chuck Norris' code fails to compile the compiler apologises.
+insert -s tmp-1269166762960900642.json --done Where’s the poop?
+insert -s tmp-3448959921386802191.json --done Could I BE wearing any more clothes?
+insert -s tmp-3448959921386802191.json Chuck Norris' programs occupy 150% of CPU, even when they are not executing.
+insert -s tmp-3448959921386802191.json --done Happiness can be found even in the darkest of times if only one remembers to turn on the light.
+migrate -s tmp-1269166762960900642.json -o tmp-3448959921386802191.json
+list -s tmp-3448959921386802191.json --done
+insert -s tmp--2856215466574182591.json --done Chuck Norris can unit test an entire application with a single assert.
+insert -s tmp--2856215466574182591.json Sometimes science is a lot more art, than science. A lot of people don't get that.
+insert -s tmp--2856215466574182591.json --done Classic Shmosby
+insert -s tmp--3158695735131739119.json --done We could all have been killed - or worse, expelled.
+insert -s tmp--3158695735131739119.json He's not a hot girl. He can't just bail on his life and set up shop in someone else's.
+insert -s tmp--3158695735131739119.json --done What Up
+migrate -s tmp--2856215466574182591.json -o tmp--3158695735131739119.json
+list -s tmp--3158695735131739119.json
