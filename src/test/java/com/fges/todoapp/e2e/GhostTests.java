@@ -183,5 +183,26 @@ public class GhostTests {
     /**
      * Remove if you want to keep temporary test files
      */
+    @After
+    public void after() {
+        deleteTmpFiles();
+    }
+
+    /**
+     * The API gives sequences of code that uses the
+     */
+    private void deleteTmpFiles() {
+        File directory = Paths.get(System.getProperty("user.dir")).toFile();
+        var files = directory.listFiles();
+        if (files == null) {
+            System.err.println("Null directory");
+            return;
+        }
+        for (File f : files) {
+            if (f.getName().startsWith("tmp-")) {
+                f.delete();
+            }
+        }
+    }
 
 }
