@@ -4,15 +4,17 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * FileFormatManagerFactory est une fabrique pour créer des instances de FileFormatManager en fonction de l'extension de fichier.
+ * Elle permet de séparer les opérations sur les fichiers du format de fichier utilisé.
+ */
 public class FileFormatManagerFactory {
     private static final Map<String, Class<? extends FileFormatManager>> registry = new HashMap<>();
 
-    // Enregistre une classe de gestionnaire pour une extension de fichier donnée
     public static void registerFormatManager(String extension, Class<? extends FileFormatManager> managerClass) {
         registry.put(extension, managerClass);
     }
 
-    // Récupère une instance de FileFormatManager basée sur l'extension de fichier
     public static FileFormatManager getManager(String extension) {
         Class<? extends FileFormatManager> managerClass = registry.get(extension);
         if (managerClass == null) {

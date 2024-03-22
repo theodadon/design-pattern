@@ -5,7 +5,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * CsvManager implémente l'interface FileFormatManager pour gérer les opérations de lecture et d'écriture des TODOs dans des fichiers CSV.
+ */
 public class CsvManager implements FileFormatManager {
 
     @Override

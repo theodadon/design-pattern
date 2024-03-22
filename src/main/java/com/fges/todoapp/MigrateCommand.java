@@ -1,10 +1,13 @@
 package com.fges.todoapp;
-
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * MigrateCommand permet de migrer les tâches TODO d'un format de fichier à un autre.
+ * Elle implémente l'interface Command et gère le processus de migration.
+ */
 public class MigrateCommand implements Command {
     private final Map<String, String> argsMap = new HashMap<>();
 
@@ -41,13 +44,11 @@ public class MigrateCommand implements Command {
             List<Todo> sourceTodos = sourceManager.listTodos(Paths.get(sourcePath));
             sourceTodos.forEach(todo -> LogManager.log("Before Migration - Source: " + sourcePath + ", Todo: " + todo.getDescription() + " (done: " + todo.isDone() + ")"));
 
-            List<Todo> outputTodos = outputManager.listTodos(Paths.get(outputPath));
-            outputTodos.addAll(sourceTodos); // Combine source and destination todos
-
-            outputManager.writeTodos(Paths.get(outputPath), outputTodos); // Write combined todos back to output
-
+            Path filePath = Paths.get(outputPath);
+            List<Todo> outputTodos = outputManager.listTodos(filePath);
+            outputTodos.addAll(sourceTodos);
+            outputManager.writeTodos(filePath, outputTodos);
             outputTodos.forEach(todo -> LogManager.log("After Migration - Output: " + outputPath + ", Todo: " + todo.getDescription() + " (done: " + todo.isDone() + ")"));
-
             LogManager.log("Successfully migrated TODOs from " + sourcePath + " to " + outputPath);
             return 0;
         } catch (Exception e) {

@@ -7,7 +7,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
+/**
+ * LogManager offre une fonctionnalité de journalisation pour enregistrer les événements et les erreurs de l'application.
+ * Permet une traçabilité des actions et des problèmes rencontrés.
+ */
 public class LogManager {
     private static final Path logFilePath = Paths.get("application.log");
     private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
@@ -18,11 +21,9 @@ public class LogManager {
 
         try {
             Path parentDir = logFilePath.getParent();
-            // Vérifiez si le parent est non-nul avant d'essayer de créer des répertoires
             if (parentDir != null && Files.notExists(parentDir)) {
                 Files.createDirectories(parentDir);
             }
-
             Files.write(logFilePath, logMessage.getBytes(), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
         } catch (IOException e) {
             System.err.println("Failed to write log: " + e.getMessage());

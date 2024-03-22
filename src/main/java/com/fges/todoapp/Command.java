@@ -1,8 +1,8 @@
 package com.fges.todoapp;
-
-/*Définit le contrat que toutes les commandes doivent respecter.
-Chaque commande doit implémenter une méthode execute qui contient la
-logique d'exécution de la commande.*/
+/**
+ * L'interface Command définit le contrat pour les commandes dans l'application.
+ * Chaque commande doit implémenter la méthode execute pour effectuer ses actions spécifiques.
+ */
 public interface Command {
     int execute() throws Exception;
 }

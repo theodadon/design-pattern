@@ -8,7 +8,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * JsonManager implémente l'interface FileFormatManager pour gérer les opérations de lecture et d'écriture des TODOs dans des fichiers JSON.
+ * Fournit des méthodes pour insérer, lister et écrire des tâches TODO.
+ */
 public class JsonManager implements FileFormatManager {
     private final ObjectMapper objectMapper = new ObjectMapper();
 

@@ -3,7 +3,10 @@ package com.fges.todoapp;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * ListCommand permet de lister les tâches TODO stockées.
+ * Elle implémente l'interface Command et exécute l'opération de listage en fonction des critères spécifiés.
+ */
 public class ListCommand implements Command {
     private final Map<String, String> argsMap = new HashMap<>();
     private boolean showDoneOnly = false;

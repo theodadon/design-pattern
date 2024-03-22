@@ -4,9 +4,10 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-/*Fournit des méthodes utilitaires statiques pour lire et écrire
-le contenu des fichiers. Cette classe simplifie les opérations sur
-fichiers en encapsulant la logique d'accès aux fichiers.*/
+/**
+ * FileManager fournit des méthodes utilitaires statiques pour lire et écrire le contenu des fichiers.
+ * Cette classe simplifie les opérations sur fichiers communes.
+ */
 public class FileManager {
 
     public static String readFileContent(Path filePath) throws IOException {

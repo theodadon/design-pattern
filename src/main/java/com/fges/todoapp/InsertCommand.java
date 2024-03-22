@@ -3,7 +3,10 @@ package com.fges.todoapp;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * InsertCommand permet d'ajouter une nouvelle tâche TODO dans la liste.
+ * Elle implémente l'interface Command et exécute l'opération d'insertion.
+ */
 public class InsertCommand implements Command {
     private final Map<String, String> argsMap = new HashMap<>();
     private boolean isDone = false;
@@ -24,8 +27,7 @@ public class InsertCommand implements Command {
             } else if (args[i].equals("-d") || args[i].equals("--done") || args[i].equals("-done")) {
                 isDone = true;
             } else {
-                // Tout ce qui ne correspond pas à un argument attendu est considéré comme faisant partie de la description
-                if (isDescriptionStarted) {  // Ajoute un espace entre les mots de la description
+                if (isDescriptionStarted) {
                     descriptionBuilder.append(" ");
                 }
                 descriptionBuilder.append(args[i]);
@@ -44,17 +46,17 @@ public class InsertCommand implements Command {
     public int execute() {
         if (!argsMap.containsKey("source")) {
             System.err.println("File path is required for insert command.");
-            return 1; // Error if the file path is missing
+            return 1;
         }
         String filePath = argsMap.get("source");
         try {
             Todo todo = new Todo(description, "Anonymous", "None", isDone);
             FileFormatManager manager = FileFormatManagerFactory.getManager(getFileExtension(filePath));
             manager.insertTodo(Paths.get(filePath), todo);
-            return 0; // Success
+            return 0;
         } catch (Exception e) {
             System.err.println("An error occurred: " + e.getMessage());
-            return 1; // Failure
+            return 1;
         }
     }
 

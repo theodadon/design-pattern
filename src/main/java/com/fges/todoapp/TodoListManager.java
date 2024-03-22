@@ -1,15 +1,19 @@
 package com.fges.todoapp;
 
 import java.util.Arrays;
-
+/**
+ * TodoListManager est responsable de la gestion des commandes relatives aux tâches TODO.
+ * Elle initialise les commandes et gère leur exécution basée sur les arguments fournis.
+ */
 public class TodoListManager {
     private static final CommandRegistry commandRegistry = new CommandRegistry();
-    private static boolean initialized = false; // Pour s'assurer que l'initialisation n'est faite qu'une seule fois
+    private static boolean initialized = false;
 
     static {
         commandRegistry.registerCommand("insert", InsertCommand::new);
         commandRegistry.registerCommand("list", ListCommand::new);
         commandRegistry.registerCommand("migrate", MigrateCommand::new);
+        commandRegistry.registerCommand("web", WebCommand::new);
     }
 
     public static void initialize() {
@@ -21,7 +25,7 @@ public class TodoListManager {
     }
 
     public static int handleCommand(String[] args) throws Exception {
-        initialize(); // Assurez-vous que l'initialisation est effectuée avant de traiter les commandes
+        initialize();
 
         String[] reorderedArgs = reorderArguments(args);
         if (reorderedArgs.length < 1) {

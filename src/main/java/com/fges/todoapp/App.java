@@ -1,16 +1,14 @@
 package com.fges.todoapp;
 
+/**
+ * La classe App sert de point d'entrée pour l'application de gestion de todo list.
+ * Elle est responsable de l'initialisation de l'application et du traitement des arguments de ligne de commande.
+ */
 public class App {
     private static final CommandRegistry commandRegistry = new CommandRegistry();
 
     public static void main(String[] args) {
-        LogManager.log("Starting TodoApp");
-        // Initialize the application
-
-        // Execute the command and capture the exit code
         int exitCode = exec(args);
-
-        // Exit the application with the appropriate exit code
         System.exit(exitCode);
     }
 
